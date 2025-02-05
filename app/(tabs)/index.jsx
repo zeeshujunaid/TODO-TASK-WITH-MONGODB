@@ -1,8 +1,8 @@
 import { View, Text } from 'react-native';
 function Home() {
     return(
-        <View>
-            <Text>Home</Text>   
+        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+            <Text style={{color:"red",}}>Home</Text>   
         </View>
     )
 }
